@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/preloader.css"> -->
+
+    <!-- Font awesome cdn file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <!-- Iconsout unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!--! ==================preloader================== -->
+    <!-- <div class="preloader">
+        <h1>Sociofam</h1>
+        <div class="dots">
+            <span class="dot z"></span>
+            <span class="dot f"></span>
+            <span class="dot s"></span>
+            <span class="dot t"></span>
+            <span class="dot l"></span>
+        </div>
+
+
+    </div> -->
+
+    <!-- ! Working on navigation bar -->
+    <nav>
+        <div class="container">
+            <h1 class="log">SocioFam</h1>
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search for creaters, inspirations, and projects">
+            </div>
+            <div class="create">
+                <label for="create-post" class="btn btn-primary">Create</label>
+                <div class="profile-photo">
+                    <img src="./images/profile-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ! nav-bar ended -->
+
+
+    <!-- ! Main Started -->
+
+    <main id="smooth-wrapper">
+        <div class="container" id="smooth-content">
+
+            <!-- * ====== Left section of the site===== -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="profile photo">
+                    </div>
+                    <div class="handle">
+                        <h4>Adele helium</h4>
+                        <p class="muted-text">
+                            @adele
+                        </p>
+                    </div>
+                </a>
+                <!-- -----------------sidebar-------------- -->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span> <i class="uil uil-home"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span> <i class="uil uil-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item " id="notification">
+                        <span> <i class="uil uil-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notification</h3>
+                        <!-- -------------------Notification popup------------- -->
+                        <div class="notification-popup">
+                            <div class="profile-photo">
+                                <img src="./images/profile-2.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Ariana Singh </b> accepted your friend request
+                                <small class="muted-tex">1h ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-3.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Kriti Sanon</b> Commented on your post
+                                <small class="muted-tex">2h ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-4.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Priyanka Bhatt </b> Commented on your post
+                                <small class="muted-tex">3h ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-5.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>The Asper Team </b> accepted your friend request
+                                <small class="muted-tex">6h ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-6.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Manish Singh </b> Commented on your post
+                                <small class="muted-tex">1days ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-7.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Manish Singh </b> Liked your post
+                                <small class="muted-tex">1days ago</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="./images/profile-8.jpg" alt="">
+                            </div>
+                            <div class="notification-body">
+                                <b>Manish Singh </b> accepted your friend request
+                                <small class="muted-tex">2days ago</small>
+                            </div>
+                        </div>
+                        <!-- -------------------Notification popup ENDED------------- -->
+
+                    </a>
+                    <a class="menu-item " id="messages-notifications">
+                        <span> <i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span>
+                        <h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span> <i class="uil uil-bookmark"></i></span>
+                        <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span> <i class="uil uil-chart-line"></i></span>
+                        <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span> <i class="uil uil-palette"></i></span>
+                        <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item ">
+                        <span> <i class="uil uil-setting"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+
+                </div>
+                <!-- -----------------sidebar ENDED-------------- -->
+
+                <label for="create-post" class="btn btn-primary">Create post</label>
+
+            </div>
+
+
+
+            <!-- ! ====== Middle section of the site===== -->
+            <div class="middle">
+                <!-- *---------------STORIES------------- -->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Selina Williams</p>
+
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Dino James</p>
+
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Lili James</p>
+
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-11.jpg" alt="">
+                        </div>
+                        <p class="name">Ojas Seba</p>
+
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Hlena Smith</p>
+
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="images/profile-13.jpg" alt="">
+                        </div>
+                        <p class="name">Ray Tanner </p>
+
+                    </div>
+                </div>
+
+                <!-- *---------------STORIES -ENDED ------------- -->
+
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, helium? " id="create-post">
+                    <input type="submit" value="Post" class="
+                    btn btn-primary">
+                </form>
+
+                <!-- *---------------FEED----------- ------------- -->
+                <div class="feeds">
+                    
+                    <!-- *---------------FEED - 1  ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-13.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-1.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Samkit Jain</b> and <b>2500 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                                </div>
+                        <div class="comments text-muted">View all 277 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 2  ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-15.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>John Jones</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-2.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Kirstina Martin</b> and <b>250 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 23 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 3  ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-14.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Lilly Potter</h3>
+                                    <small>India, 1 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-3.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Harry Potter</b> and <b>500 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 156 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 4  ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-16.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Indiana Josheph</h3>
+                                    <small>Africa, 2 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-4.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Lorel Anne</b> and <b>100 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Lana Rose</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 12 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 5 ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-18.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Linda Parker</h3>
+                                    <small>Russia, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-6.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Oliver Mentas</b> and <b>250 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Oliver Mentas</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 20 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 6 ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-13.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Max Tanner</h3>
+                                    <small>Texas, 15 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-5.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>theasperteam</b> and <b>100 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Max Tanner</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 27 comments</div>
+                    </div>
+                    <!-- *---------------FEED - 7 ----------- ------------- -->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-17.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Jessi Quick</h3>
+                                    <small>Paris, 13 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <span class="edit">
+                                <i class="uil uil-ellipsis-h"></i>
+                            </span>
+                        </div>
+                        <div class="photo">
+                            <img src="./images/feed-7.jpg" alt="">
+                        </div>
+
+                        <div class="action-btton">
+                            <div class="interaction-button">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share-alt"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark-full"></i></span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg" alt=""></span>
+                            <span><img src="./images/profile-8.jpg" alt=""></span>
+                            <span><img src="./images/profile-3.jpg" alt=""></span>
+                            <p>Liked by <b>Wallance West</b> and <b>1000 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Jessi Quick</b> This is the best feeling when you give your lil sis a gift. <span
+                                    class="hash-tag">#love#family</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 300 comments</div>
+                    </div>
+                </div>
+                    <!-- *---------------FEEDs-ENDED----------- ------------- -->
+
+
+
+            </div>
+            <!-- ! ====== Middle section-ENDED============ -->
+
+            <!-- * ====== right section of the site===== -->
+            <div class="right">
+
+                <!-- ==================MESSAGES================ -->
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <i class="uil uil-edit"></i>
+                    </div>
+                    <!-- ---------SEARCH_BAR--------- -->
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search messages" id="message-search" >
+                    </div>
+                    <!-- ------------MESSAGES_CATEGORY------ -->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6 >General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+                    <!-- ---------------MESSAGE---------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-17.jpg" alt="profile-17">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Jessi Quick</h5>
+                            <p class="text-muted">Will meet soon</p>
+                        </div>
+                    </div>
+                    <!-- ---------------MESSAGE---------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-18.jpg" alt="profile-17">
+                            <!-- <div class="active"></div> -->
+                        </div>
+                        <div class="message-body">
+                            <h5>Ronald Rego</h5>
+                            <p class="text-bold"> 2 new messages</p>
+                        </div>
+                    </div>
+                    <!-- ---------------MESSAGE---------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-19.jpg" alt="profile-17">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Edem Quist</h5>
+                            <p class="text-muted">Lol you are right</p>
+                        </div>
+                    </div>
+                    <!-- ---------------MESSAGE---------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-20.jpg" alt="profile-17">
+                            <!-- <div class="active"></div> -->
+                        </div>
+                        <div class="message-body">
+                            <h5>Salena Kyle</h5>
+                            <p class="text-muted">Come at jitters</p>
+                        </div>
+                    </div>
+                    <!-- ---------------MESSAGE---------------- -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-15.jpg" alt="profile-17">
+                            <!-- <div class="active"></div> -->
+                        </div>
+                        <div class="message-body">
+                            <h5>John James</h5>
+                            <p class="text-muted">Just woke up bruh</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================MESSAGES_ENDED================ -->
+
+                <!-- ----------------------FRIEND REQUEST------------------- -->
+                <div class="friend-request">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-6.jpg" alt="profile-13">
+                            </div>
+                            <div>
+                                <h5>Jenny</h5>
+                                <p class="text-muted">
+                                    3 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-12.jpg" alt="profile-13">
+                            </div>
+                            <div>
+                                <h5>Barbera </h5>
+                                <p class="text-muted">
+                                    Someone you might know
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <!-- <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-3.jpg" alt="profile-13">
+                            </div>
+                            <div>
+                                <h5>Cera Martin</h5>
+                                <p class="text-muted">
+                                    3 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-4.jpg" alt="profile-13">
+                            </div>
+                            <div>
+                                <h5>Praisy Williams</h5>
+                                <p class="text-muted">
+                                    10 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div> -->
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="./images/profile-13.jpg" alt="profile-13">
+                            </div>
+                            <div>
+                                <h5>Hajia Bintu</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn">
+                                Decline
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- ! Main ended -->
+
+<!-- ?=============================================THEME_CUSTOMIZATON============================= -->
+<div class="customize-theme">
+    <div class="card">
+        <h2>Customize your view</h2>
+        <p>Manage your font size, color, and background.</p>
+
+        <!-- --------------------FONT_SIZES------------------------------ -->
+        <div class="font-size">
+            <h4>Font size</h4>
+            <div>
+                <h6>Aa</h6>
+                <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2"></span>
+                    <span class="font-size-3"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                </div>
+
+                <h3>Aa</h3>
+            </div>
+        </div>
+
+        <!-- ----------------PRIMARY_COLOR--------------------------------------- -->
+        <div class="color">
+            <h4>Color</h4>
+            <div class="choose-color">
+                <span class="color-1 active"></span>
+                <span class="color-2 "></span>
+                <span class="color-3 "></span>
+                <span class="color-4 "></span>
+                <span class="color-5"></span>
+            </div>
+        </div>
+
+        <!-- --------------------------------BACKGROUND_COLOR----------------- -->
+
+        <div class="background">
+            <h4>Background</h4>
+            <div class="choose-bg">
+                <div class="bg-1">
+                    <span></span>
+                    <h5 for="bg-1">Light</h5>
+                </div>
+                <div class="bg-2">
+                    <span></span>
+                    <h5 for="bg-2">Dim</h5>
+                </div>
+                <div class="bg-3">
+                    <span></span>
+                    <h5 for="bg-3">Lights Out</h5>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
